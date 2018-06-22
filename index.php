@@ -19,10 +19,14 @@
 
     $str_array = readText($fileName);
 
+    /*
     foreach($str_array as $str) {
       echo "${str}<br>";
     }
+    */
 
+    $data = shortSum($str_array);
+    postData($data)
   ?>
 
 </body>
